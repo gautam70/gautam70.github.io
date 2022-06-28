@@ -372,10 +372,16 @@ form .box{
         display: none;
     }
 }
-@media only screen and (max-width: 769px){
+
+@media only screen and (max-width: 494px){
     .home{
+        background: url(images/home.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         background-position: center;
     }
+}
+@media only screen and (max-width: 766px){
     .home .content{
         width: auto;
     }
